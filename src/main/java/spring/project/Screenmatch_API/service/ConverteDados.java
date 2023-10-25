@@ -5,7 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import spring.project.Screenmatch_API.model.DadosSerie;
 
 public class ConverteDados implements IConverteDados {
-    private ObjectMapper mapper = new ObjectMapper();
+    private final ObjectMapper mapper = new ObjectMapper();
 
 
     @Override
